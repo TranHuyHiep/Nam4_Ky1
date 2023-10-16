@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=AccessControlProvider
+comment1.params=controlLevel
+comment1.target=com.javacodegeeks.patterns.prototypepattern.AccessControl\ getAccessControlObject(java.lang.String)
+numComments=2

@@ -1,0 +1,7 @@
+FileFrequencyIndex
+{"ex4.txt","ex3.txt","ex2.txt","ex1.txt"}
+
+FileFreqIndex_Hash
+{"ex4.txt","ex3.txt","ex2.txt","ex1.txt"}
+
+TestEngine{"ex4.txt","ex3.txt","ex2.txt","ex1.txt"}

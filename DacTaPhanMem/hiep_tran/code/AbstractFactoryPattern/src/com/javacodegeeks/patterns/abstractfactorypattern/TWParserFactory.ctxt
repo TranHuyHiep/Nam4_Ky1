@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=TWParserFactory
+comment1.params=parserType
+comment1.target=com.javacodegeeks.patterns.abstractfactorypattern.XMLParser\ getParserInstance(java.lang.String)
+numComments=2

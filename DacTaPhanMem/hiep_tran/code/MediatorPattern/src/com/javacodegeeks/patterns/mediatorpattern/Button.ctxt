@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Button
+comment1.params=mediator
+comment1.target=void\ setMediator(com.javacodegeeks.patterns.mediatorpattern.MachineMediator)
+comment2.params=
+comment2.target=void\ press()
+numComments=3

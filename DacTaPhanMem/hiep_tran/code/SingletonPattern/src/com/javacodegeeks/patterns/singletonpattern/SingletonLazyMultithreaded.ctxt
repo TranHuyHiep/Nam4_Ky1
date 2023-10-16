@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=SingletonLazyMultithreaded
+comment1.params=
+comment1.target=SingletonLazyMultithreaded()
+comment2.params=
+comment2.target=com.javacodegeeks.patterns.singletonpattern.SingletonLazyMultithreaded\ getInstance()
+numComments=3

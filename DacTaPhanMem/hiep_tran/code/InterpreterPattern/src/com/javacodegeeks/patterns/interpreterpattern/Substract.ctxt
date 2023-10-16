@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Substract
+comment1.params=leftExpression\ rightExpression
+comment1.target=Substract(com.javacodegeeks.patterns.interpreterpattern.Expression,\ com.javacodegeeks.patterns.interpreterpattern.Expression)
+comment2.params=
+comment2.target=int\ interpret()
+numComments=3

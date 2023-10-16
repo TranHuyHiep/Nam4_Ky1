@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Motor
+comment1.params=
+comment1.target=void\ startMotor()
+comment2.params=rpm
+comment2.target=void\ rotateDrum(int)
+numComments=3

@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=ExpressionUtils
+comment1.params=s
+comment1.target=boolean\ isOperator(java.lang.String)
+comment2.params=s\ left\ right
+comment2.target=com.javacodegeeks.patterns.interpreterpattern.Expression\ getOperator(java.lang.String,\ com.javacodegeeks.patterns.interpreterpattern.Expression,\ com.javacodegeeks.patterns.interpreterpattern.Expression)
+numComments=3

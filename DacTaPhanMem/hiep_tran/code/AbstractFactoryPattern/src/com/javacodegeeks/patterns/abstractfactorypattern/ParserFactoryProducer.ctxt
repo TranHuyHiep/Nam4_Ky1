@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=ParserFactoryProducer
+comment1.params=
+comment1.target=ParserFactoryProducer()
+comment2.params=factoryType
+comment2.target=com.javacodegeeks.patterns.abstractfactorypattern.AbstractParserFactory\ getFactory(java.lang.String)
+numComments=3

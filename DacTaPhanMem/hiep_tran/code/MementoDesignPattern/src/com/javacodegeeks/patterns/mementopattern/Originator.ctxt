@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Originator
+comment1.params=x\ y\ careTaker
+comment1.target=Originator(double,\ double,\ CareTaker)
+comment10.params=savepointName
+comment10.target=void\ setOriginatorState(java.lang.String)
+comment11.params=
+comment11.target=java.lang.String\ toString()
+comment2.params=
+comment2.target=double\ getX()
+comment3.params=
+comment3.target=double\ getY()
+comment4.params=x
+comment4.target=void\ setX(double)
+comment5.params=y
+comment5.target=void\ setY(double)
+comment6.params=savepointName
+comment6.target=void\ createSavepoint(java.lang.String)
+comment7.params=
+comment7.target=void\ undo()
+comment8.params=savepointName
+comment8.target=void\ undo(java.lang.String)
+comment9.params=
+comment9.target=void\ undoAll()
+numComments=12

@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=AudioFileHandler
+comment1.params=handlerName
+comment1.target=AudioFileHandler(java.lang.String)
+comment2.params=handler
+comment2.target=void\ setHandler(com.javacodegeeks.patterns.chainofresponsibility.Handler)
+comment3.params=file
+comment3.target=void\ process(com.javacodegeeks.patterns.chainofresponsibility.File)
+comment4.params=
+comment4.target=java.lang.String\ getHandlerName()
+numComments=5

@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=MachineMediator
+comment1.params=
+comment1.target=void\ start()
+comment2.params=
+comment2.target=void\ wash()
+comment3.params=
+comment3.target=void\ open()
+comment4.params=
+comment4.target=void\ closed()
+comment5.params=
+comment5.target=void\ on()
+comment6.params=
+comment6.target=void\ off()
+comment7.params=temp
+comment7.target=boolean\ checkTemperature(int)
+numComments=8

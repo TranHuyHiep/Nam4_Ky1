@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=Colleague
+comment1.params=mediator
+comment1.target=void\ setMediator(com.javacodegeeks.patterns.mediatorpattern.MachineMediator)
+numComments=2

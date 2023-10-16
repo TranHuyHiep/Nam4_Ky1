@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=Sensor
+comment1.params=temp
+comment1.target=boolean\ checkTemperature(int)
+numComments=2

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=AccessControl
+comment1.params=controlLevel\ access
+comment1.target=AccessControl(java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=com.javacodegeeks.patterns.prototypepattern.AccessControl\ clone()
+comment3.params=
+comment3.target=java.lang.String\ getControlLevel()
+comment4.params=
+comment4.target=java.lang.String\ getAccess()
+comment5.params=access
+comment5.target=void\ setAccess(java.lang.String)
+numComments=6

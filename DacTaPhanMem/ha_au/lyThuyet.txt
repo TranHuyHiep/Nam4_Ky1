@@ -1,0 +1,49 @@
+		* Quản lý hệ thống đặt phòng
++ QL cơ sở ks: Cho biết ks có những loại phòng nào, dịch vụ, giá cả, các tài khoản.
+	- Cập nhật tài khoản(thêm sửa xóa)
+	- Cập nhật loại phòng
+	- Cập nhật phòng
+	- Cập nhật dịch vụ
++ QL giao dịch khách hàng : tra cứu thông tin cần thiết, gửi yêu cầu đặt phòng,
+ gửi thông tin cá nhân và các yêu cầu về dịch vụ
+	- Tra cứu thông tin(tìm loại phòng trống)
+	- Đăng ký
+	- Đăng nhập
+	- Đặt phòng
+	- Yêu cầu phục vụ
+
++ QL kinh doanh ks: Giữ chỗ cho khách đặt phòng, thanh toán khi khách trả phòng
+	- Xử lý đơn đặt phòng
+	- Lập hóa đơn
+	- Cập nhật chi tiết hóa đơn
+	- In hóa đơn
+	- In báo cáo doanh thu định kỳ
+	- In báo cáo phòng trống
+
+
+______________________ Đặc tả xây dựng máy tìm kiếm
+Mô tả: Cho 1 họ các tài kiệu, được lưu trữ trên các trang web. Người sử dụng muốn tìm kiếm các tài liệu mà mình quan tâm. bằng cách
+nhập vào các từ khóa
+
+* Phân tích
+- key: từ đơn, mở rộng từ khóa 
+- url chứa tài liệu có chứa mọi key
+- Trong kết quả trả về 1 tài liệu xh trong 1 trang web
+- Tên tài liệu là duy nhất
+- Sắp xếp theo kết quả trả về theo thứ tự giảm dần của tổng số lần xuất hiện các từ khóa.
+- Bổ sung từ khóa mới và cập nhật kết quả trả về
+- Chọn 1 bản sánh, hiển thị tài liệu
+
+********* Date model
+* key- tập các từ khóa
+* doc - họ các tài liệu
+* url - địa chỉ trang web
+* title - tập tên tài liệu
+* mathch - danh sách các bản sánh kết quả
+* domains - miền
+* number - số lần xuất hiện các cặp từ
+* Entry - là cặp từ và vị trí của nó trong văn bản
+* word - tập các từ
+* nonKey(không phải là từ khóa) - cố định lưu ở trong file
+* currentMatch - bản sánh hiện thời
+* current - tài liệu hiện thời

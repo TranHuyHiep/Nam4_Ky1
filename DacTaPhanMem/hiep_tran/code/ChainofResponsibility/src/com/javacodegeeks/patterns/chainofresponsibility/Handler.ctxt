@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Handler
+comment1.params=handler
+comment1.target=void\ setHandler(com.javacodegeeks.patterns.chainofresponsibility.Handler)
+comment2.params=file
+comment2.target=void\ process(com.javacodegeeks.patterns.chainofresponsibility.File)
+comment3.params=
+comment3.target=java.lang.String\ getHandlerName()
+numComments=4

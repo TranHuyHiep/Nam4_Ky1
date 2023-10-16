@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f8f9fa;
+        }
+
+        .register-form {
+            max-width: 500px;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        .btn-register {
+            width: 100%;
+        }
+
+        #soThich {
+            border: 1px solid;
+            padding: 5px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="register-form">
+        <h1 class="mb-4" style="text-align: center;">Thông tin của bạn</h1>
+        <form id="register-form" method="POST" action="register.php">
+            <div class="form-group">
+                <label for="hoTen">Họ và tên</label>
+                <input type="text" name="hoTen" id="hoTen" class="form-control" size="50">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" class="form-control" size="50">
+            </div>
+            <div class="form-group">
+                <label for="sex">Giới tính</label><br>
+                <div id="gioiTinh">
+                    <input type="radio" id="nam" name="gioiTinh" value="nam">
+                    <label for="nam">Nam</label>
+                    <input type="radio" id="nu" name="gioiTinh" value="nu">
+                    <label for="nu">Nữ</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="favorit">Sở thích</label><br>
+                <div id="soThich">
+                    <input type="checkbox" id="docSach" name="soThich" value="docSach">
+                    <label for="docSach">Đọc sách</label>
+                    <input type="checkbox" id="duLich" name="soThich" value="duLich">
+                    <label for="duLich">Du lịch</label>
+                    <input type="checkbox" id="amNhac" name="soThich" value="amNhac">
+                    <label for="amNhac">Âm nhạc</label>
+                    <input type="checkbox" id="amThuc" name="soThich" value="amThuc">
+                    <label for="amThuc">Ẩm thực</label>
+                    <input type="checkbox" id="khac" name="soThich" value="khac">
+                    <label for="khac">Khác</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="qt">Quốc tịch</label><br>
+                <select name="quocTich" id="quocTich" class="form-control">
+                    <option value="VietNam">Việt Nam</option>
+                    <option value="HanQuoc">Hàn Quốc</option>
+                    <option value="Duc">Đức</option>
+                    <option value="My">Mỹ</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="ghiChu">Ghi chú</label>
+                <textarea name="ghiChu" id="ghiChu" class="form-control" rows="4" cols="50"></textarea>
+            </div>
+            <div class="form-group">
+                <input type="submit" class="btn btn-primary btn-register" value="Register" onclick="register()">
+            </div>
+        </form>
+    </div>
+</body>
+<script>
+    function register() {
+        var hoTen = document.getElementById("hoTen");
+        var email = document.getElementById("email");
+        var gioiTinh = document.getElementsByName("gioiTinh");
+        var soThich = document.getElementsByName("soThich");
+
+        var hoTenValue = hoTen.value;
+        var emailValue = email.value;
+        var gioiTinhValue = false;
+        var soThichValue = false;
+
+        // check name
+        if (hoTenValue == "") {
+            hoTen.style.backgroundColor = "yellow";
+        } else {
+            hoTen.style.backgroundColor = "";
+        }
+
+        // check email
+        if (emailValue == "") {
+            email.style.backgroundColor = "yellow";
+        } else {
+            email.style.backgroundColor = "";
+        }
+
+        // check sex
+        for (let i = 0; i < gioiTinh.length; i++) {
+            if (gioiTinh[i].checked) {
+                gioiTinhValue = true;
+                break;
+            }
+        }
+
+        if (!gioiTinhValue) {
+            document.getElementById("gioiTinh").style.backgroundColor = "yellow"
+        } else {
+            document.getElementById("gioiTinh").style.backgroundColor = ""
+        }
+
+        // check favorite
+        for (let i = 0; i < soThich.length; i++) {
+            if (soThich[i].checked) {
+                soThichValue = true;
+                break;
+            }
+        }
+
+        if (!soThichValue) {
+            document.getElementById("soThich").style.backgroundColor = "yellow"
+        } else {
+            document.getElementById("soThich").style.backgroundColor = ""
+        }
+
+        event.preventDefault();
+    }
+</script>
+
+</html>

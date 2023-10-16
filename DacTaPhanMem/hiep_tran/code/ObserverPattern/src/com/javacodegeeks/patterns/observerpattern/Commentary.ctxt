@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=Commentary
+comment1.params=desc
+comment1.target=void\ setDesc(java.lang.String)
+numComments=2

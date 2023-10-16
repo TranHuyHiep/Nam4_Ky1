@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Singleton
+comment1.params=
+comment1.target=Singleton()
+comment2.params=
+comment2.target=com.javacodegeeks.patterns.singletonpattern.Singleton\ getInstance()
+comment3.params=
+comment3.target=java.lang.Object\ readResolve()
+comment4.params=
+comment4.target=java.lang.Object\ writeReplace()
+comment5.params=
+comment5.target=java.lang.Object\ clone()
+comment6.params=classname
+comment6.target=java.lang.Class\ getClass(java.lang.String)
+numComments=7

@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=CareTaker
+comment1.params=memento\ savepointName
+comment1.target=void\ saveMemento(Memento,\ java.lang.String)
+comment2.params=savepointName
+comment2.target=Memento\ getMemento(java.lang.String)
+comment3.params=
+comment3.target=void\ clearSavepoints()
+numComments=4

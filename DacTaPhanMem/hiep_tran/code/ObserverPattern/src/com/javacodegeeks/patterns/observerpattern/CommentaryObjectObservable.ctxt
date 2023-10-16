@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=CommentaryObjectObservable
+comment1.params=subjectDetails
+comment1.target=CommentaryObjectObservable(java.lang.String)
+comment2.params=desc
+comment2.target=void\ setDesc(java.lang.String)
+comment3.params=
+comment3.target=java.lang.String\ subjectDetails()
+numComments=4
