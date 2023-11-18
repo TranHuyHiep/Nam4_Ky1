@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=User
+comment1.params=userName\ level\ accessControl
+comment1.target=User(java.lang.String,\ java.lang.String,\ com.javacodegeeks.patterns.prototypepattern.AccessControl)
+comment2.params=
+comment2.target=java.lang.String\ getUserName()
+comment3.params=userName
+comment3.target=void\ setUserName(java.lang.String)
+comment4.params=
+comment4.target=java.lang.String\ getLevel()
+comment5.params=level
+comment5.target=void\ setLevel(java.lang.String)
+comment6.params=
+comment6.target=com.javacodegeeks.patterns.prototypepattern.AccessControl\ getAccessControl()
+comment7.params=accessControl
+comment7.target=void\ setAccessControl(com.javacodegeeks.patterns.prototypepattern.AccessControl)
+comment8.params=
+comment8.target=java.lang.String\ toString()
+numComments=9

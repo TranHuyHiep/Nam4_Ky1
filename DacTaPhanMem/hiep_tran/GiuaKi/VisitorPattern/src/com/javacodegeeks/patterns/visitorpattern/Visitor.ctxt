@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Visitor
+comment1.params=element
+comment1.target=void\ visit(com.javacodegeeks.patterns.visitorpattern.HtmlElement)
+comment2.params=parentElement
+comment2.target=void\ visit(com.javacodegeeks.patterns.visitorpattern.HtmlParentElement)
+numComments=3

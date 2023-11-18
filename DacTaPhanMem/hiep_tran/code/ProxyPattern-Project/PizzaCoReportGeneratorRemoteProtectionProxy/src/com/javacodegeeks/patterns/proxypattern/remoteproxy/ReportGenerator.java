@@ -1,4 +1,4 @@
-package com.javacodegeeks.patterns.proxypattern.remoteproxy;
+package PizzaCoReportGeneratorRemoteProtectionProxy.src.com.javacodegeeks.patterns.proxypattern.remoteproxy;
 
 public interface ReportGenerator {
 	

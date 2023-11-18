@@ -1,4 +1,4 @@
-package com.javacodegeeks.patterns.proxypattern.remoteproxy;
+package PizzaCoRemoteProxy.src.com.javacodegeeks.patterns.proxypattern.remoteproxy;
 
 import java.rmi.Naming;
 import java.rmi.RemoteException;

@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=CarDirector
+comment1.params=carBuilder
+comment1.target=CarDirector(com.javacodegeeks.patterns.builderpattern.CarBuilder)
+comment2.params=
+comment2.target=void\ build()
+numComments=3

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Company
+comment1.params=companyName\ companyAddress\ companyContactNo\ contactList
+comment1.target=Company(java.lang.String,\ java.lang.String,\ java.lang.String,\ ContactList)
+comment2.params=
+comment2.target=java.lang.String\ getCompanyName()
+comment3.params=
+comment3.target=java.lang.String\ getCompanyAddress()
+comment4.params=
+comment4.target=java.lang.String\ getCompanyContactNo()
+comment5.params=
+comment5.target=ContactList\ getContactList()
+numComments=6

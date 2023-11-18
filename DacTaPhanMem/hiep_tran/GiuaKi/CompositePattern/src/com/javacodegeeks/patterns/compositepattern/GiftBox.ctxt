@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=GiftBox
+comment1.params=giftBox
+comment1.target=void\ add(GiftBox)
+comment2.params=giftBox
+comment2.target=void\ remove(GiftBox)
+comment3.params=
+comment3.target=int\ CalculateTotalPrice()
+numComments=4

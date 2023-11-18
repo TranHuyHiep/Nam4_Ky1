@@ -1,4 +1,4 @@
-package com.javacodegeeks.patterns.proxypattern.protectionproxy;
+package PizzaCoReportGeneratorRemoteProtectionProxy.src.com.javacodegeeks.patterns.proxypattern.protectionproxy;
 
 public class TestProtectionProxy {
 

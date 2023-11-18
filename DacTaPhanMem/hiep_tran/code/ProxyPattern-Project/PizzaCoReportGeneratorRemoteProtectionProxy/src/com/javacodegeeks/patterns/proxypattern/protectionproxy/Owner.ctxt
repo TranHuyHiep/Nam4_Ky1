@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Owner
+comment1.params=reportGenerator
+comment1.target=void\ setReportGenerator(com.javacodegeeks.patterns.proxypattern.protectionproxy.ReportGeneratorProxy)
+comment2.params=
+comment2.target=boolean\ isOwner()
+comment3.params=
+comment3.target=java.lang.String\ generateDailyReport()
+numComments=4

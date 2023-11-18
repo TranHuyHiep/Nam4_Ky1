@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=HtmlParentElement
+comment1.params=tagName
+comment1.target=HtmlParentElement(java.lang.String)
+comment10.params=
+comment10.target=void\ generateHtml()
+comment11.params=visitor
+comment11.target=void\ accept(Visitor)
+comment2.params=
+comment2.target=java.lang.String\ getTagName()
+comment3.params=tag
+comment3.target=void\ setStartTag(java.lang.String)
+comment4.params=tag
+comment4.target=void\ setEndTag(java.lang.String)
+comment5.params=
+comment5.target=java.lang.String\ getStartTag()
+comment6.params=
+comment6.target=java.lang.String\ getEndTag()
+comment7.params=htmlTag
+comment7.target=void\ addChildTag(com.javacodegeeks.patterns.visitorpattern.HtmlTag)
+comment8.params=htmlTag
+comment8.target=void\ removeChildTag(com.javacodegeeks.patterns.visitorpattern.HtmlTag)
+comment9.params=
+comment9.target=java.util.List\ getChildren()
+numComments=12
